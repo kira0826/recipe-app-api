@@ -19,8 +19,7 @@ services:
       - DB_PASSWORD=changeme
     depends_on:
       - db
-
-
+    
   db:
     image: postgres:13-alpine
     volumes:
